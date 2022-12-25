@@ -1,0 +1,13 @@
+.header__logo {
+    grid-column-start: 1;
+}
+
+/*430*/
+
+@media screen and (max-width: 430px) { 
+    .header__logo {
+        width: 142px;
+        height: 42px;
+        align-self: end;
+    }
+}

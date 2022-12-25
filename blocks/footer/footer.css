@@ -1,0 +1,36 @@
+.footer {
+    display: flex;
+    font-family: Inter;
+    color: #FFFFFF; 
+    margin: 92px auto 24px;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1184px;
+}
+
+/*1024*/
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        margin: 92px 48px 24px;
+    }
+}
+
+/*768*/
+
+@media screen and (max-width: 768px) {
+    .footer {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+/*430*/
+
+@media screen and (max-width: 430px) {
+    .footer {
+        flex-direction: column ;
+        padding: 64px 16px 24px;
+        align-items: start;
+    } 
+}

@@ -1,0 +1,36 @@
+.lead__caption{
+    margin: 0;
+    padding: 0; 
+    place-self: start;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+/*1024*/
+
+@media screen and (max-width: 1024px) {
+    .lead__caption {
+        margin-left: 48px;
+    }
+}
+
+/*768*/
+
+@media screen and (max-width: 768px) {
+    .lead__caption {
+        margin-left: 24px;
+    }
+} 
+
+/*430*/
+
+@media screen and (max-width: 430px) {
+    .lead__caption {
+        margin-left: 16px;
+    }
+}
