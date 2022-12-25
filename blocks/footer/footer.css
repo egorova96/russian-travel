@@ -1,7 +1,7 @@
 .footer {
     display: flex;
     font-family: Inter;
-    color: #FFFFFF; 
+    color: #FFFFFF;
     margin: 92px auto 24px;
     align-items: center;
     justify-content: space-between;
@@ -29,7 +29,7 @@
 
 @media screen and (max-width: 430px) {
     .footer {
-        flex-direction: column ;
+        flex-direction: column;
         padding: 64px 16px 24px;
         align-items: start;
     } 
