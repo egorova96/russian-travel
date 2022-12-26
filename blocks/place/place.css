@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(2, fit-content(460px));
     margin: 0 auto;
-    font-family: Inter;
+    font-family: 'Inter', Arial, sans-serif;
     color: #FFFFFF;
     column-gap: 40px;
     row-gap: 48px;
@@ -28,8 +28,8 @@
         display: grid;
         grid-template-columns: fit-content(340px), fit-content(352px);
         margin: 0 24px;
-        column-gap: 40px;
-        row-gap: 28px;
+        column-gap: 28px;
+        row-gap: 48px;
         margin-bottom: 80px;
         object-fit: contain;
     }
