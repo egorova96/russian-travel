@@ -5,19 +5,14 @@
     line-height: 28px;
     font-style: normal;
     font-weight: 300;
+    text-decoration: none;
+    place-items: end;
 }
 
 .header__lang-link:hover{
     opacity: 0.8;
 }
 
-/*768*/
-@media screen and (max-width: 768px) {
-    .header__lang-link {
-        padding-bottom: 5px;
-        padding-left: 7px;
-    }
-}
 
 /*430*/
 
@@ -26,6 +21,6 @@
         margin: 0;
         font-size: 18px;
         line-height: 20px;
-        padding-bottom: 4px;
+        padding-top: 5px;
     }
 }

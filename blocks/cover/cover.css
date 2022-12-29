@@ -1,11 +1,12 @@
 .cover {
+    display: flex;
+    flex-direction: column;
     max-width: 1184px;
     max-height: 740px;
     margin: 0 auto;
     font-family: 'Inter', Arial, sans-serif;
     color: #FFFFFF;
     display: flex;
-    flex-direction: column;
     text-align: center;
 }
 

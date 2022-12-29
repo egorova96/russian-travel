@@ -15,6 +15,7 @@
 @media screen and (max-width: 1024px) {
     .photo-grid__table {
         max-width: 928px;
+        gap: 14px; 
     }
 }
 
@@ -26,6 +27,10 @@
         padding-left: 24px;
         padding-right: 24px;
     }
+
+    .photo-grid__item {
+        max-height: 264px;
+    }
 }
 
 /*430*/
@@ -36,5 +41,13 @@
         gap: 12px;
         margin: 0;
         align-items: center;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-top: 0;
+    }
+
+    .photo-grid__item {
+        max-height: 216px;
     }
 }
+

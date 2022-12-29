@@ -1,11 +1,15 @@
+
 .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1184px;
+    margin: 0 auto;
     margin-top: 28px;
     margin-left: 48px;
     margin-right: 48px;
-    display: grid;
-    grid-template-columns: auto 30px 30px;
-    gap: 18px;
 }
+
 
 /*768*/
 
@@ -23,6 +27,7 @@
 @media screen and (max-width: 430px){ 
     .header {
         margin: 16px;
+        margin-bottom: 0;
         max-width: calc( 100% - 32px );
     }
 }

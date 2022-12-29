@@ -3,7 +3,7 @@
     padding: 0;
     place-self: start;
     color: #FFFFFF;
-    font-family: Inter;
+    font-family: 'Inter', 'Arial', sans-serif;
     font-weight: 400;
     font-size: 10px;
     line-height: 14px;
@@ -11,13 +11,6 @@
     letter-spacing: 1.5px;
 }
 
-/*1024*/
-
-@media screen and (max-width: 1024px) {
-    .lead__caption {
-        margin-left: 48px;
-    }
-}
 
 /*768*/
 

@@ -9,6 +9,8 @@
     line-height: 58px;
 }
 
+
+
 /*430*/
 
 @media screen and (max-width: 430px) {
@@ -16,5 +18,8 @@
         font-size: 32px;
         line-height: 1.09;
         margin-bottom: 40px;
+        max-width: 250px;
+        font-size: 32px;
+        line-height: 35px;
     }
 }

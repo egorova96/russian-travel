@@ -1,6 +1,5 @@
 .lead__image {
     max-width: 984px;
-    /*height: 615px;*/
     margin-top: 64px;
     justify-content: center;
     margin-bottom: 8px;
@@ -12,6 +11,7 @@
     .lead__image {
         max-width: 928px;
         object-fit: contain;
+        margin-top: 56px;
     }
 }
 

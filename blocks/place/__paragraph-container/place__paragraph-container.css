@@ -8,26 +8,14 @@
     grid-column: 2;
 }
 
-/*768*/
-/*@media screen and (max-width: 768px) {
-    .place__paragraph-container {
-        padding-top: 5px;
-    }
-}*/
 
 /*750*/ 
 
 @media screen and (max-width: 750px) {
     .place__paragraph-container {
         margin-left: 16px;
+        margin-right: 16px;
         grid-column: 1;
-    }
-}
-
-/*350*/
-
-@media screen and (max-width: 350px) {
-    .place__paragraph-container{
         max-width: 288px;
     }
 }

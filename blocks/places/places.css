@@ -4,6 +4,14 @@
     margin-top: 92px;
 }
 
+/*1024*/
+
+@media screen and (max-width: 1024px) {
+    .places {
+        max-width: 928px;
+    }
+}
+
 /*768*/
 
 @media screen and (max-width: 768px) {
@@ -16,6 +24,7 @@
 
 @media screen and (max-width: 350px) {
     .places {
+        margin-top: 64px;
         max-width: 320px;
         object-fit: contain;
     }
