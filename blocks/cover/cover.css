@@ -1,12 +1,18 @@
 .cover {
     display: flex;
-    flex-direction: column;
-    max-width: 1184px;
-    max-height: 740px;
-    margin: 0 auto;
+    position: relative;
     font-family: 'Inter', Arial, sans-serif;
-    color: #FFFFFF;
+    background-image:  url(../../images/cover-trains.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    max-width: 1184px;
+    height: 740px;
+    margin: 0 auto;
+    max-width: 1184px;
     text-align: center;
+    align-items: stretch;
+    justify-content: stretch;
 }
 
 /*1024*/
